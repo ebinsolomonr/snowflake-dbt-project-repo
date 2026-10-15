@@ -1,0 +1,7 @@
+models:
+ - name: customerorders
+   columns:
+      - name: customerid
+        tests:
+          - not_null
+          - unique
