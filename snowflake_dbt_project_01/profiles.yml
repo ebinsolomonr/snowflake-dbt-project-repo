@@ -1,0 +1,14 @@
+
+snowflake_dbt_project_01:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: XYGIJCW-SW76224
+      user: ebinr
+      password: ThekingEBI@1302
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DB1
+      schema: L1_LANDING
+      threads: 4
