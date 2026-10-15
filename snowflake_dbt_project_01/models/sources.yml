@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_dbt_project_01
+    database: DB1
+    schema: L1_LANDING
+    tables:
+      - name: customers
+      - name: orders
+      - name: orderitems
